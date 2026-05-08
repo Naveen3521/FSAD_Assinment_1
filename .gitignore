@@ -1,0 +1,38 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+# node
+node_modules/
+dist/
+build/
+
+# runtime artifacts from run_all.sh
+microservices/logs/
+*.pid
+*.log
+
+# editors
+.idea/
+.vscode/
+
+# os
+Thumbs.db
+.DS_Store
+
+# legacy java leftovers (just in case)
+target/
+*.class
+
+# office lock files
+~$*
+
+# assignment artifacts
+FSAD_Assignment*.docx
+claude/
+
